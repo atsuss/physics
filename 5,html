@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Маса і густина</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            color: #007bff;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .definition {
+            margin-bottom: 20px;
+        }
+
+        .example p {
+            margin-bottom: 10px;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 25px;
+            height: 0;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .test-button {
+            display: block;
+            width: 150px;
+            margin: 20px auto;
+            padding: 10px;
+            text-align: center;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .test-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Тема: Маса і густина</h1>
+    <div class="definition">
+        <h2>Що таке густина?</h2>
+        <p>
+            <strong>Густиною речовини</strong> називається величина, що чисельно дорівнює масі одиниці об'єму цієї речовини.
+        </p>
+        <p>
+            Густина дорівнює відношенню маси тіла до його об'єму.
+            У фізиці густину позначають грецькою буквою &rho; (ро).
+            Формула: &rho; = m/V, де m — маса, V — об'єм.
+        </p>
+        <p>
+            Основною одиницею густини речовини є кг/м³.
+        </p>
+        <p>
+            Густина речовини залежить від температури, при підвищенні температури густина зменшується. Це пов'язано з термічним розширенням, коли при незмінній масі збільшується об'єм.
+        </p>
+    </div>
+
+    <div class="definition">
+        <h2>Приклади:</h2>
+        <div class="example">
+            <h3>Приклад 1: Густина води</h3>
+            <p>Вода має високу густину. Наприклад, кубок води важить більше, ніж кубок повітря того ж об'єму.</p>
+        </div>
+        <div class="example">
+            <h3>Приклад 2: Густина металів</h3>
+            <p>Метали, такі як залізо або свинець, мають високу густину. Тому навіть невелика кількість металу може мати велику масу.</p>
+        </div>
+        <div class="example">
+            <h3>Приклад 3: Густина деревини</h3>
+            <p>Деревина має меншу густину, ніж метали. Тому, навіть великий шматок дерева може бути легким.</p>
+        </div>
+    </div>
+
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/S6LuN2nrcGE?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+   
+    <a class="test-button" href="https://forms.gle/u6z8V6Hy22YFZSL17">Тест</a>
+
+</body>
+</html>
