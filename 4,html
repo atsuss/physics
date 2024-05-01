@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Обертальний рух</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    h1, h2, p {
+      text-align: center;
+    }
+    .definition {
+      margin-bottom: 30px;
+    }
+    .highlight {
+      font-weight: bold;
+      color: #007bff;
+    }
+    .video-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      padding-top: 25px;
+      height: 0;
+    }
+    .video-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    .test-button {
+      display: block;
+      width: 150px;
+      margin: 20px auto;
+      padding: 10px;
+      text-align: center;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .test-button:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>Тема: Обертальний рух</h1>
+
+  <div class="definition">
+    <h2>Що таке обертальний рух?</h2>
+    <p>
+      <span class="highlight">Обертальний рух матеріальної точки по колу</span> - це рух, при якому точка рухається по коловій траєкторії. Такий рух відомий як обертальний, а період обертання - це час, за який точка здійснює один повний оберт. 
+    </p>
+  </div>
+
+  <div class="definition">
+    <h2>Основні поняття обертального руху:</h2>
+    <ol>
+      <li><span class="highlight">Обертання:</span> Рух по колу називається обертанням.</li>
+      <li><span class="highlight">Центр обертання:</span> Точка, навколо якої здійснюється обертання.</li>
+      <li><span class="highlight">Траєкторія обертального руху:</span> Траєкторія обертального руху - це коло.</li>
+      <li><span class="highlight">Період обертання:</span> Час, за який точка здійснює один повний оберт.</li>
+    </ol>
+  </div>
+
+  <div class="definition">
+    <h2>Характеристики обертального руху:</h2>
+    <ul>
+      <li><span class="highlight">Шлях:</span> У кожному обертанні точка проходить коло.</li>
+      <li><span class="highlight">Швидкість:</span> Швидкість руху точки по колу не є постійною.</li>
+      <li><span class="highlight">Прискорення:</span> Прискорення точки по колу спрямоване до центру кола.</li>
+    </ul>
+  </div>
+
+  <div class="definition">
+    <h2>Приклади обертального руху:</h2>
+    <ol>
+      <li>Рух стрілки годинника.</li>
+      <li>Обертання колеса велосипеда.</li>
+      <li>Рух Землі навколо власної осі.</li>
+    </ol>
+  </div>
+
+  <div class="definition">
+    <h2>Застосування обертального руху:</h2>
+    <p>
+      Обертальний рух застосовується в різних галузях, таких як машинобудування, транспорт, астрономія тощо. Наприклад, колеса в автомобілях, обертаючіся валки в механізмах, обертання планет навколо Сонця.
+    </p>
+  </div>
+
+  <div class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/eAKqxK1_jhM?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+
+ 
+  <a class="test-button" href="https://forms.gle/u6z8V6Hy22YFZSL17">Тест</a>
+
+</body>
+</html>
+
