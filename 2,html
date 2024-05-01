@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Механічний рух</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            color: #007bff;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .example {
+            margin-bottom: 20px;
+        }
+
+        .example p {
+            margin-bottom: 10px;
+        }
+
+        .test-button {
+            display: block;
+            width: 150px;
+            margin: 20px auto;
+            padding: 10px;
+            text-align: center;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .test-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Механічний рух</h1>
+    <p>
+        <strong>Механічний рух</strong> - зміна положення тіл у просторі відносно іншого тіла з плином часу.
+    </p>
+    <h2>Види механічного руху:</h2>
+    <ul>
+        <li><strong>Рівномірний прямолінійний рух:</strong> Тіло рухається по прямій лінії з постійною швидкістю.</li>
+        <li><strong>Прискорений прямолінійний рух:</strong> Тіло рухається по прямій лінії зі змінною швидкістю.</li>
+        <li><strong>Рух під кутом:</strong> Тіло рухається по траєкторії, що не є прямою лінією, під певним кутом до вісі координат.</li>
+        <li><strong>Коливання:</strong> Повторюючийся рух тіла навколо певної положення рівноваги.</li>
+        <li><strong>Обертання:</strong> Рух тіла навколо своєї вісі.</li>
+    </ul>
+    <h2>Основні поняття:</h2>
+    <ul>
+        <li><strong>Шлях (S):</strong> Відстань, пройдена тілом під час руху.</li>
+        <li><strong>Час (t):</strong> Період, протягом якого відбувається рух.</li>
+        <li><strong>Швидкість (v):</strong> Шлях, пройдений тілом за одиницю часу.</li>
+        <li><strong>Прискорення (a):</strong> Зміна швидкості за одиницю часу.</li>
+    </ul>
+    <h2>Приклади механічного руху:</h2>
+    <div class="example">
+        <h3>Приклад 1: Рух автомобіля зі сталою швидкістю</h3>
+        <p>Автомобіль рухається по прямій дорозі зі сталою швидкістю 60 км/год. Шлях, який він пройде за годину, буде 60 км.</p>
+    </div>
+    <div class="example">
+        <h3>Приклад 2: Вільне падіння тіла</h3>
+        <p>Тіло, яке випущене з певної висоти, рухається під впливом сили тяжіння зі зростанням швидкості пропорційно часу. Це приклад прискореного прямолінійного руху.</p>
+    </div>
+    <iframe width="80%" height="450" style="display: block; margin: 0 auto;" src="https://www.youtube.com/embed/Te69Z-ej8jw?si=YXVVPBNzopLYdMj2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  
+    <button class="test-button" onclick="window.location.href='https://forms.gle/u6z8V6Hy22YFZSL17'">Тест</button>
+
+</body>
+</html>
