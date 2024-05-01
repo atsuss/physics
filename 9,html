@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Потенційна та кінетична енергії</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            color: #007bff;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .definition {
+            margin-bottom: 20px;
+        }
+
+        .example {
+            margin-bottom: 20px;
+        }
+
+        .example p {
+            margin-bottom: 10px;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 25px;
+            height: 0;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .test-button {
+            display: block;
+            width: 150px;
+            margin: 20px auto;
+            padding: 10px;
+            text-align: center;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .test-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Потенційна та кінетична енергії</h1>
+    <div class="definition">
+        <h2>Механічна енергія</h2>
+        <p>
+            <strong>Механічна енергія</strong> - це енергія, яку фізичне тіло має завдяки рухові або перебуванню в полі потенціальних сил.
+        </p>
+        <p>
+            Механічна енергія дорівнює сумі кінетичної та потенційної енергії.
+        </p>
+        <p><strong>Формула:</strong> Механічна енергія (E) = Кінетична енергія (К) + Потенціальна енергія (Е<sub>р</sub>).</p>
+        <p>
+            Поняття механічної енергії макроскопічного тіла не охоплює енергію руху атомів, із яких воно складається.
+        </p>
+        <p>
+            Вимірюється в системі СІ в джоулях.
+        </p>
+    </div>
+
+    <div class="definition">
+        <h2>Кінетична енергія</h2>
+        <p>
+            <strong>Кінетична енергія</strong> - це частина енергії фізичної системи, яку вона має завдяки руху.
+        </p>
+        <p><strong>Формула для точки:</strong> Кінетична енергія (К) = 1/2 * m * v<sup>2</sup>, де m - маса тіла, v - швидкість тіла.</p>
+        <p><strong>Формула для пружно деформованого тіла (стиснутої пружини):</strong> Кінетична енергія (К) = 1/2 * k * x<sup>2</sup>, де k - коефіцієнт жорсткості пружини, x - відстань стиснення пружини.</p>
+    </div>
+
+    <div class="definition">
+        <h2>Потенціальна енергія</h2>
+        <p>
+            <strong>Потенціальна енергія</strong> - це частина енергії фізичної системи, що виникає завдяки взаємодії між тілами, які складають систему, та із зовнішніми, відносно цієї системи, тілами, і зумовлена розташуванням тіл у просторі.
+        </p>
+        <p><strong>Формула для тіла, піднятого над опорою на висоту h:</strong> Потенціальна енергія (Е<sub>р</sub>) = m * g * h, де m - маса тіла, g - прискорення вільного падіння, h - висота підйому.</p>
+    </div>
+
+    <div class="example">
+        <h2>Приклади</h2>
+        <p><strong>Приклад 1:</strong> Підйом вантажу. Якщо ви піднімаєте ящик масою 50 кг на висоту 2 метри, то механічна енергія цього процесу складатиме: E = К + Е<sub>р</sub> = (m * v<sup>2</sup> / 2) + (m * g * h) = (50 кг * (0 м/c)<sup>2</sup> / 2) + (50 кг * 9,8 м/c<sup>2</sup> * 2 м) = 0 Дж + 980 Дж = 980 Дж.</p>
+        <p><strong>Приклад 2:</strong> Вітровий млин. Вітер дає кінетичну енергію обертанню лопатей млина, перетворюючи її на механічну енергію.</p>
+        <p><strong>Приклад 3:</strong> Стрільба з лука. Кінетична енергія стріли, коли вона випущена з лука, перетворюється в потенціальну енергію, коли вона піднімається вгору.</p>
+    </div>
+
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xuVw0U2NAtY?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <button class="test-button" onclick="window.location.href='test.html'">Тест</button>
+
+</body>
+</html>
