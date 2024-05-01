@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Робота і потужність</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            color: #007bff;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .definition {
+            margin-bottom: 20px;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 25px;
+            height: 0;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .test-button {
+            display: block;
+            width: 150px;
+            margin: 20px auto;
+            padding: 10px;
+            text-align: center;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .test-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Робота і потужність</h1>
+    <div class="definition">
+        <h2>Робота</h2>
+        <p>
+            <strong>Робота</strong> - це величина, яка вимірюється добутком сили на відстань, яку пройшла точка дії цієї сили в напрямку її дії.
+        </p>
+        <p>
+            Робота (A) дорівнює добутку сили (F) на відстань (d), яку проходить тіло в напрямку прикладеної сили. Тобто, A = Fd.
+        </p>
+        <p>
+            Одиницею вимірювання роботи в системі SI є джоуль (Дж).
+        </p>
+        <p><strong>Приклад:</strong> Піднімання вантажу. Якщо ви піднімаєте ящик масою 50 кг на висоту 2 метри, то ви виконали роботу: A = Fd = mgh = 50 кг * 9,8 м/c² * 2 м = 980 Дж.</p>
+    </div>
+
+    <div class="definition">
+        <h2>Потужність</h2>
+        <p>
+            <strong>Потужність</strong> - це величина, яка вимірює швидкість виконання роботи.
+        </p>
+        <p>
+            Потужність (P) дорівнює відношенню виконаної роботи до часу, за який ця робота виконана. Тобто, P = A/t.
+        </p>
+        <p>
+            Одиницею вимірювання потужності в системі SI є ватт (Вт).
+        </p>
+        <p><strong>Приклад:</strong> Якщо ви піднімаєте ящик масою 50 кг на висоту 2 метри за 10 секунд, ваша потужність дорівнюватиме: P = A/t = 980 Дж / 10 с = 98 Вт.</p>
+    </div>
+
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ETxprnQ3ZVE?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <button class="test-button" onclick="window.location.href='test.html'">Тест</button>
+
+</body>
+</html>
