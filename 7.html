@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сила тертя, сила тяжіння, архімедова сила</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        h1, h2 {
+            color: #007bff;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+
+        .definition {
+            margin-bottom: 20px;
+        }
+
+        .example {
+            margin-bottom: 20px;
+        }
+
+        .example p {
+            margin-bottom: 10px;
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 25px;
+            height: 0;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .test-button {
+            display: block;
+            width: 150px;
+            margin: 20px auto;
+            padding: 10px;
+            text-align: center;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .test-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Сила тертя, сила тяжіння, архімедова сила</h1>
+    <div class="definition">
+        <h2>I. Сила тертя</h2>
+        <p>
+            <strong>Сила тертя спокою</strong> – сила, що виникає між двома дотичними тілами в разі спроби зрушити одне тіло відносно іншого і напрямлена в бік, протилежний тому, в який би рухалось тіло, якби тертя не було.
+        </p>
+        <p>
+            Сила тертя спокою чисельно дорівнює силі F, яка намагається зрушити тіло. Тобто, F<sub>тер. сп.</sub> = F.
+        </p>
+        <p>
+            <strong>Сила тертя ковзання</strong> – сила, що виникає в разі ковзання одного тіла по поверхні іншого і напрямлена протилежно напрямку руху тіла.
+        </p>
+        <p>
+            Сила тертя ковзання прямо пропорційна силі нормальної реакції опори. Тобто, F<sub>тер. ковз.</sub> = μN.
+        </p>
+        <p>
+            (де μ – коефіцієнт тертя ковзання, а N - сила нормальної реакції опори)
+        </p>
+    </div>
+
+    <div class="definition">
+        <h2>II. Сила пружності</h2>
+        <p>
+            <strong>Сила пружності</strong> - сила, що виникає під час деформації тіла і напрямлена протилежно напрямку зміщення частин цього тіла в ході деформації.
+        </p>
+        <p>
+            Чисельно F<sub>пруж</sub> дорівнює добутку коефіцієнта жорсткості k (Н/м) на видовження тіла x (м). Тобто, F<sub>пруж</sub> = kx.
+        </p>
+    </div>
+
+    <div class="definition">
+        <h2>III. Сила тяжіння</h2>
+        <p>
+            <strong>Сила тяжіння</strong> – сила, з якою Земля притягує до себе тіла, що перебувають на її поверхні або поблизу неї.
+        </p>
+        <p>
+            Чисельно F<sub>тяж.</sub> дорівнює добутку маси тіла m (кг) на сталу одиницю прискорення вільного падіння g (Н/кг).
+        </p>
+        <p>
+            Тобто, F<sub>тяж.</sub> = mg.
+        </p>
+        <p>
+            Офтоп: вага P дорівнює силі тяжіння. Головне не переплутай вагу (Н) з масою (кг). Тут, у ліцеї, такі помилки можуть коштувати тобі життя.
+        </p>
+    </div>
+
+    <div class="definition">
+        <h2>IV. Сила Архімеда</h2>
+        <p>
+            <strong>Сила Архімеда</strong> – виштовхувальна сила, що діє на тіло, занурене в рідину або газ.
+        </p>
+        <p>
+            Чисельно F<sub>А</sub> дорівнює добутку густини рідини або газу ρ (кг/м³) на прискорення вільного падіння g (Н/кг) на об’єм зануреної частини тіла V<sub>зан</sub>.
+        </p>
+        <p>
+            Тобто, F<sub>А</sub> = ρgV<sub>зан</sub>.
+        </p>
+    </div>
+
+    <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Cj9Ptm_4Lzo?rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <button class="test-button" onclick="window.location.href='test.html'">Тест</button>
+
+</body>
+</html>
